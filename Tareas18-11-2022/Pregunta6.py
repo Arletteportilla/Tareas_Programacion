@@ -2,5 +2,5 @@
 un mensaje"""
 
 def despedida():
-    return"Adios Baby"
+    return"Adios girl :)"
 print (despedida())
