@@ -1,15 +1,10 @@
 """Define una función que permita multiplicar los números de una lista y sumar
-sus resultados."""
+sus resultados"""
 
-def sumar(lista):
-    if len(lista) == 1:
-        print(lista[0])
-        return lista[0]
-    else:
-        print(lista[0])
-        return lista[0] + sumar(lista[1:])
+def  multiplicar ( lista ):
+    multiplicacion  =  1
+    for J  in lista :
+        multiplicacion  *=  J
+        print( multiplicacion )
+multiplicar ([2,4,5,21,1,2,])
 
-
-
-listaNumeros = [1,2,3,4,5,6,7,8,9,10]
-print("Total Sumado: ", sumar(listaNumeros))
